@@ -2,18 +2,18 @@ import React from "react";
 import styles from "./style.module.scss";
 import Header from "../../layout/Header";
 import SideBar from "../../layout/SideBar";
-import CustomerList from "../../components/CustomerList";
+import ChartBar from "../../components/Chart";
 
-const Customer = () => {
+const Chart = () => {
   return (
     <>
       <Header />
-      <div className={styles.customer}>
+      <div className={styles.chart}>
         <SideBar />
-        <CustomerList />
+        <ChartBar />
       </div>
     </>
   );
 };
 
-export default Customer;
+export default Chart;
